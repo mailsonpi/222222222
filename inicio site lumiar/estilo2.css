@@ -1,0 +1,56 @@
+body{
+    font-size: 15px;
+    padding:0;
+    margin: 0;
+    font-family: 'Alata', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-header{
+   
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,.5) 100%), url('aplicativo.png.png') no-repeat center/cover;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.container{
+    
+    max-width: 1114px;
+    margin: 0 auto;
+}
+.header-nav img{
+     
+    cursor: pointer;
+    z-index: 2;
+    max-width: 200px;
+    animation: animacao .7s ;
+}
+
+.header-nav{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav ul{
+   
+    animation: animacao .7s ;
+    display: flex;
+    gap:20px;
+    font-weight: 400px;
+}
+.header-nav a{
+    
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: .3s;
+    
+}
